@@ -5,5 +5,5 @@ print('Escape sequences \
         \n\\n New line \
         \n\\t Horizontal tab \
         \n\\\ Backslash \\ \
-        \n\\\" Double quotation mark \" ')
-print("\\' Single quotation mark '")
+        \n\\\" Double quotation mark "' "\
+        \n\\' Single quotation mark '")
