@@ -1,4 +1,3 @@
-
 print('Escape sequences \
         \n\\a Bell (alert) \
         \n\\b Backspace \
