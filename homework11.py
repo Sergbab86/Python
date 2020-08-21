@@ -1,6 +1,7 @@
 
 h = 13
-
+if h % 2 == 0:
+    h += 1
 for i in range(h // 2 + 1):
     for j in range(h):
         if (
