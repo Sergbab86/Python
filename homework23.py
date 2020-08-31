@@ -15,6 +15,9 @@ print(a)
 b = list(d.values())
 print(b)
 
+# c = [(tuple(x), y) for x, y in zip(b, a)]
+# print(c)
 
-c = dict.fromkeys(list(d.keys()), (i for i in list(d.values())))
-print(c)
+new_dict = dict([(tuple(x), y) for x, y in zip(list(d.values()), list(d.keys()))])
+print(new_dict)
+
