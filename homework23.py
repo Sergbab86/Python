@@ -20,4 +20,3 @@ print(b)
 
 new_dict = dict([(tuple(x), y) for x, y in zip(list(d.values()), list(d.keys()))])
 print(new_dict)
-
